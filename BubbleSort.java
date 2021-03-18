@@ -13,10 +13,6 @@ public class BubbleSort {
             slots[i] = userInput;
         }
 
-        //TEST
-        //for (int i : slots){
-         //   System.out.println(slots[i-1]);
-        //}
 
         //USE BUBBLE SORT TO MIX UP THE ARRAY
         for(int j = 0; j < slots.length-1; j++){
@@ -42,9 +38,6 @@ public class BubbleSort {
             }
             System.out.println("Number of swaps: " + count);
         }
-
-
-
         //CLOSE SCANNER
         scan.close();
     }
